@@ -98,8 +98,7 @@ pub mod stats;
 pub mod teams;
 
 pub use client::{AsyncClient, Client, RestClient};
-pub use common::{Collection, Direction};
+pub use common::{Collection, Direction, Mode, Region, Tier};
 pub use error::ApiError;
 pub use pagination::{Page, PageBuilder, Pageable, PagedEndpointExt, PagedIter};
 pub use query::{AsyncQuery, Query};
-pub(crate) use query_params::QueryParams;
